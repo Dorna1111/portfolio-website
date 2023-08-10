@@ -1,0 +1,386 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #293241;
+    color: #f4f4f4;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .nav-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+} 
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+/* Add additional styles to customize each section as per your preference */
+
+footer {
+    background-color: #293241;
+    color: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Styles for the about section */
+#about {
+    background-color: #a5bdc2;
+    padding: 2rem;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+}
+
+.profile-text {
+    flex: 1;
+}
+
+.profile-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.profile-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Styles for the skill section */
+#skill {
+    background-color: #a5bdc2;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 30%;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-content {
+    padding: 1rem;
+    max-width: 100%;
+}
+
+.skill h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.skill p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Styles for the learning section */
+#learning {
+    background-color: #a5bdc2;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.learning {
+    width: 30%;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.learning:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.learning-content {
+    padding: 1rem;
+    max-width: 100%;
+}
+
+.learning h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.learning p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Styles for the vlog section */
+.vlog {
+    background-color: #83c8ca;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vlog-content {
+    flex: 1;
+    padding: 0 1rem;
+}
+
+.vlog h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.vlog p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+.read-more {
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.read-more i {
+    margin-left: 0.5rem;
+}
+
+/* Styles for the footer section */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact {
+    background-color: #25bebe;
+    padding: 40px;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    width: 60%;
+    padding-right: 20px;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-link {
+    font-size: 14px;
+    color: #e2eefa;
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items:center;
+    padding: 5px;
+}
+
+.social-link i {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+
+.social-link:hover {
+    color: #0056b3;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    color: rgb(236, 144, 32);
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Add a media query to adjust layout for smaller screens */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 0.5rem;
+    }
+
+    .nav-links li {
+        display: block;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    .profile-image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .skill, .learning, .vlog {
+        width: 100%;
+    }
+
+    /* Style the hamburger menu icon for mobile phones */
+    .menu-icon {
+        width: 30px;
+        height: 20px;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    /* Add styles for the mobile navigation menu */
+    .show-nav .nav-links {
+        display: block;
+        background-color: #333;
+        padding: 1rem;
+    }
+
+    .show-nav .nav-links li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Adjust footer layout for smaller screens */
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Hide nav links by default on smaller screens */
+     .nav-links {
+        display: none;
+    }
+    .social-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+}
